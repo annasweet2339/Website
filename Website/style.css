@@ -1,23 +1,67 @@
-header {
-  width: 100%;
-  padding: 100rem;
+h1 {
+  color: #656347;
+  font-family: cursive;
+  font-size: 300%;
 }
-
-nav {
+h3 {
+  color: #656347;
+  font-family: cursive;
+}
+footer {
+  position: fixed;
   background-color: #b3b9b4;
+  top: 90%;
+  width: 100%;
+  margin-top: -2.5em;
+  left: 0em;
 }
-nav ul {
+footer ul {
   display: flex;
   list-style-type: None;
 }
-nav ul li {
-  display: flex;
-}
-nav ul li a {
+footer ul li a {
   padding: 0.5rem 0.75rem;
   color: white;
   text-decoration: none;
 }
-nav ul li a:hover {
+footer ul li a:hover {
   background-color: #656347;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+}
+.bg img {
+  min-height: 100%;
+  width: 100%;
+}
+.container {
+  position: fixed;
+  width: 100%;
+  margin-top: -2.5em;
+  display: block;
+  clear: both;
+  left: 50px;
+  top: 50%;
+}
+.item-left {
+  float: left; /*使用float脫離文檔流*/
+}
+.item-right {
+  float: right;
+  position: fixed;
+  top: 0%;
+  border-right: 0%;
+  margin-right: 0 auto;
+  margin: 0;
+  right: 0%;
+}
+.bdcard img {
+  size: 50%;
+  min-height: 100%;
+  width: 100%;
 }
